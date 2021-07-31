@@ -1,0 +1,60 @@
+footer{
+    text-align: center;
+    color: black;
+    background: white;
+    margin-top: 100px;
+}
+
+body{margin: 0px;padding: 0px;background: cyan;}
+
+ul{position: relative;
+    background: black;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+ul li{display: inline-block;}
+
+ul li a { text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;}
+
+ul li:hover{background: lightgray;}
+
+ul ul {
+
+ position: absolute;  
+ min-width: 200px;
+ display: none;
+ 
+}
+ul ul li{
+
+    display: block;
+    background: black;
+  
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+ul ul li{
+   font: normal 10pt arial black;
+}
+
+.conteudo{
+    display: table;
+}
+
+.imagem{display: table-cell; float: left;}
+
+.texto{display: table-cell; float: left; width: 1000px;}
+
+h1{
+    font: italic 50pt arial;
+    text-align: center;
+    
+}

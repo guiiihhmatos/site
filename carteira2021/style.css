@@ -1,0 +1,92 @@
+body {
+    background: #90EE90;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+section{
+    width: 1000px;
+    height: auto;
+    border-radius: 8px;
+    background: white;
+    margin: auto;
+    margin-top: 250px ;
+    border: 4px black;
+    
+}
+
+p#para{
+    text-align: center;
+    border-top: 3px solid;
+    border-left: 3px solid;
+    border-right: 3px solid;
+    margin: auto;
+    background-color: #00FFFF;
+    font: italic 15pt arial;
+    padding: 6px;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th {
+    background: #87CEEB;
+}
+
+td,
+th {
+    border: 3px solid;
+    padding: 8px;
+    text-align: center;
+}
+
+
+ul li a { text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;}
+
+ul li:hover{background: lightgray;}
+ul{position: relative;
+    background: black;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+ul li{display: inline-block;}
+
+ul ul {
+
+ position: absolute;  
+ min-width: 200px;
+ display: none;
+ 
+}
+ul ul li{
+
+    display: block;
+    background: black;
+  
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+ul ul li{
+   font: normal 10pt arial black;
+}
+
+footer{
+    margin-top: 40px;
+    padding: 4px;
+    background-color: white;
+    text-align: center;
+}
+

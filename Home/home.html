@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="center">
+            <div class="logo">
+                <h2>CEFSA</h2>
+            </div>
+            <!--logo-->
+            <div class="menu">
+
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
+                <a href="#">Simulador investimento</a>
+                <a class="btn-menu" href="http://127.0.0.1:5500/login/login.html">Iniciar </a>
+
+
+            </div>
+            <!--menu-->
+        </div>
+        <!--center-->
+
+    </header>
+
+
+    <section class="main">
+        <div class="center">
+            <div class="main_cta">
+                <h2 style="color: black;">Economia em casa</h2>
+                <p>Mantendo a ordem nas contas de casa, ficando no positivo no fim do mês</p>
+                <!--<button><a href="http://127.0.0.1:5500/login/login.html">Iniciar</a></button>-->
+            </div>
+            <!--main-cta-->
+
+            <div class="diferenciais">
+                <div class="diferencial-single">
+                    <i class="fas fa-table"></i>
+                    <h2>Planilhas</h2>
+                    <p>Planilhas para a organização das <strong>contas</strong>, planilhas para alocar melhor seu
+                        capital financeiro e planilha com exemplos de investimentos ao longo prazo utilizando os juros
+                        compostos ao seu favor.</p>
+                </div>
+                <!--diferencial-single-->
+                <div class="diferencial-single">
+                    <i class="fas fa-lock"></i>
+                    <h2>Segurança</h2>
+                    <p>Os seus dados estão criptografados, além de <strong>TOKENS</strong> para a entrada na plataforma,
+                        uma segurança em duas etapas no seu aparelho principal, podendo desativar a qualquer momento.
+                    </p>
+                </div>
+                <!--diferencial-single-->
+
+            </div>
+            <!--diferencial-->
+        </div>
+        <!--center-->
+
+    </section>
+    <!--main-->
+
+
+    <section class="sobre" >
+        <div class="center">
+            <div class="chamada-sobre">
+                <h2>Conheça a CEFSA</h2>
+                <p>Soluções para problemas diários</p>
+            </div>
+            <!--chamada-sobre-->
+            <div class="conteudo-sobre">
+                <p>A CEFSA. Foi criada para a resolução de um problema na socidade, desemquilibrío nas contas no fim do
+                    mês
+                    <br>
+                    <span><i class="fas fa-check-double">Investimentos em BDR's, Ações, Fundos imobiliários e
+                            ETF's</i></span>
+                    <span><i class="fas fa-check-double">Invista de maneira segura, eficiente e exemplar. </i></span>
+                </p>
+
+                <p>As nossas carteiras de investimentos, são uma das maiores do mercado. Selecionamos ações na
+                    carteira pública e dizemos o <strong>Porque</strong> desse investimento.
+                    <button class="botao-sobre"><a href="#">Ler mais</a></button>
+                </p>
+            </div>
+            <!--conteudo-sobre-->
+        </div>
+        <!--center-->
+    </section>
+    <!--sobre-->
+    <section class="funciona">
+        <div class="titulo">
+            <h2>Como funciona</h2>
+            <p>Aprenda as funcionalidades do site</p>
+        </div>
+        <!--titulo-->
+        <div class="conteudo-funciona">
+            <p>As nossas carteiras de investimentos, são uma das maiores do mercado. Selecionamos ações na
+                carteira pública e dizemos o <strong>Porque</strong> desse investimento.</p>
+
+            <p>As nossas carteiras de investimentos, são uma das maiores do mercado. Selecionamos ações na
+                carteira pública e dizemos o <strong>Porque</strong> desse investimento.</p>
+        </div>
+    </section>
+
+    <section class="calculando">
+        <div class="container">
+            <div class="title-base">
+                <h3>Calculando seu investimento</h3>
+    
+            </div><!--title-base-->
+    
+            <div class="base">
+                <h4>Quanto você pretende investir</h4>
+               <input type="number" name="numero1" class="numero1" placeholder="R$ 0,00">   
+                <hr>
+            </div>
+    
+            <div class="dados-base">
+            <h4>Coloque sua rentabilidade</h4>
+               <input type="number" name="numero2" id="numero2" placeholder="0,0%">
+               <hr>
+               <h4>Coloque quantos anos de investimento</h4>
+              <input type="number" name="numero3" id="numero3" placeholder="0">
+               <hr>
+              <input type="button" value="Calcular" onclick="calcular()">
+            </div>
+
+          <div id="resultado">
+                   <p id="rua"></p>
+          </div>
+        </div>
+        
+    </section>
+   
+    <script src="codigo.js"></script>
+    <script src="https://kit.fontawesome.com/16544f2866.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

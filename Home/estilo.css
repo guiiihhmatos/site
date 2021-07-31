@@ -1,0 +1,335 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap : wrap;
+}
+
+header {
+    background-color:white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid  rgb(200, 200, 200);
+}
+
+.logo{
+    color: #f48120;
+    
+}
+.menu{
+    width: 80%;
+    text-align: right;
+    display: inline-block;
+    
+}
+
+.menu a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    transition: 0.5s;}
+
+
+.menu a:hover{
+    color: rgb(244, 129, 32);
+}
+
+.menu .btn-menu {
+    background: orange;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius:8px;
+}
+
+.menu .btn-menu:hover {
+    background-color: #f48120;
+    color: white;
+}
+
+
+
+/*section*/
+
+
+
+
+
+
+
+
+
+
+section.main{
+    background-image: url(homepag.jpg);
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main_cta{
+    width: 100%;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.main_cta a {
+    text-decoration: none;
+color: white;
+}
+
+.main_cta h2{
+    color: #f48120;
+    font-size: 40px;
+}
+
+.main_cta p {
+    color: gray;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.main_cta button{
+    background-color: orange;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius:8px;
+    font-size: 22px;
+    border: 0;
+    text-decoration: none;
+    
+}
+
+.diferenciais {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single{
+    background: black;
+    width: 30%;
+    padding: 50px 20px;
+    border-radius: 20px;
+    margin: auto ;
+    margin-top: 20px;
+    
+}
+
+
+.diferencial-single i {
+    color: white;
+    font-size: 33px;
+    margin-top: -20px;
+}
+
+.diferencial-single h2 {
+    color : orangered;
+text-align: center;
+margin-top: -30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.diferencial-single p{
+color: gray;
+font-size: 13px;
+line-height: 30px;
+}
+
+section.sobre{
+    padding: 80px 0;
+    border-bottom: 1px solid gray;
+}
+.chamada-sobre{
+    width: 100%;
+text-align: center;
+}
+
+.chamada-sobre h2{
+    color: orange;
+    text-transform: uppercase;
+}
+
+.chamada-sobre p{
+    font-size: 12px;
+    color: gray;
+    margin: 10px 0;
+}
+.conteudo-sobre{display: flex;}
+
+.conteudo-sobre p{
+    margin: 0 20px;
+    color: #444444;
+}
+
+.conteudo-sobre i {
+    color: orange;
+}
+
+span {
+    width: 100%;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.botao-sobre {
+    background-color: white;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #124265;
+    border-radius:8px;
+    font-size: 12px;
+    border: 2px solid #124265;
+    cursor: pointer;
+    
+
+}
+
+section.funciona{
+   
+    padding: 80px 0;
+    background-color:gray;
+  
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+}
+.titulo h2{
+    text-transform: uppercase;
+
+}
+.titulo p {
+    color: white;
+    margin: 10px 0;
+    font-size: 12px;
+}
+
+.conteudo-funciona p {
+    margin: 10px 0px;
+    font-size: 16px;
+
+}
+.conteudo-funciona{display: flex;}
+.conteudo-funciona{margin: 0 20px;}
+@media screen and (max-width: 768px){
+.diferencial-single {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+}
+
+/*section das contas*/
+
+.calculando {
+    background-color: #d3d3d3;
+     padding-top: 80px;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.container input[type=number] {
+    font-weight: 1000;
+}
+
+.title-base {
+    text-align: center;
+    padding: 6px;
+    width: 100%;
+    height: 40px;
+    background-color: cyan;
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+
+hr {
+    border: 1px solid #d3d3d3;
+    margin: 10px 0;
+    
+}
+
+.base {
+    text-align: center;
+    
+}
+
+.base input[type=number] {
+    border: 2px solid gray;
+    margin: 5px 0;
+   color: green;
+   padding: 6px 0;
+   padding-left: 10px;
+   border-radius: 10px;
+    
+}
+
+.dados-base {
+    text-align: center;
+}
+
+.dados-base input[type=number] {
+    padding: 6px 0;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-bottom: 25px ;
+    border: 2px solid gray;
+    
+}
+
+
+.dados-base h4 {
+    text-align: center;
+    padding: 6px 0;
+}
+
+.dados-base input[type=button] {
+    padding: 4px 0;
+    border: none;
+    background-color: #90ee90;
+    width: 80%;
+    border-radius: 20px;
+    margin: 15px 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.dados-base input[type=button]:hover {
+    border: 2px solid black;
+    background-color: #d3d3d3;
+}
+
+#resultado p {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    background: white;
+    margin-top: 100px;
+}
+

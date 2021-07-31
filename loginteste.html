@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: cyan;
+    }
+
+    form {
+        background: white;
+        max-width: 500px;
+        width: 70%;
+        padding: 20px;
+        position: absolute;
+        border-radius: 50px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+
+    }
+
+    form h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    div {
+        color: gray;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    a:hover {
+        color: blue;
+    }
+
+    form input[type=submit] {
+        border: 0;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 30px;
+        background: #5f7cba;
+        font-size: 15px;
+        margin-top: 10px;
+        color: white;
+        height: 30px;
+    }
+
+    form input[type=submit]:hover {
+        background: gray;
+    }
+
+    form input[type=email], form input[type=password]{
+        width: 100%;
+        height: 45px;
+        border: 1px solid gray;
+        margin: 10px 0;
+        padding-left: 10px;
+        border-radius: 10px;
+    }
+
+   form input[type=email]{
+       margin-top: 20px;
+       
+   }
+</style>
+<body>
+    <form action="" id="cd">
+        <h1>Login</h1>
+        
+        <input type="email" name="email" placeholder="Seu email..." id="email">
+        <input type="password" name="senha" placeholder="Sua senha..." id="senha">
+        <div>Esqueci minha senha. <a href="">Clique aqui</a></div>
+        <input type="submit" value="Verificar" onclick="Verificar()">
+        <div>Não tem conta? <a href="#">Cadastre-se</a></div>
+    </form>
+</body>
+
+</html>
